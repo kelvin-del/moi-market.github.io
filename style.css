@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to right, #FFD700, #FFA500); /* Gradient background */
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.header {
+    background-color: #4CAF50; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav {
+    background-color: #333; /* Navbar background color */
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #fff; /* Navbar text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #333; /* Navbar text color on hover */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.column {
+    flex: 30%;
+    padding: 20px;
+    background-color: #f9f9f9; /* Column background color */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
